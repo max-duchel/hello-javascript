@@ -25,12 +25,15 @@ console.log(greeting[11])
 
 console.log(greeting.toUpperCase()) // Mayúsculas
 console.log(greeting.toLowerCase()) // Minúsculas
+
 console.log(greeting.indexOf("Hola")) // Índice
 console.log(greeting.indexOf("Brais"))
 console.log(greeting.indexOf("MoureDev"))
+
 console.log(greeting.includes("Hola")) // Incluye
 console.log(greeting.includes("Brais"))
 console.log(greeting.includes("MoureDev"))
+
 console.log(greeting.slice(0, 10)) // Sección
 console.log(greeting.replace("Brais", "MoureDev")) // Reemplazo
 

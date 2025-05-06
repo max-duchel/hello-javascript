@@ -5,7 +5,9 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=11575
 
 // Loops o bucles
 
-// for
+/************************************************
+ * FOR
+ */
 
 for (let i = 0; i < 5; i++) {
     console.log(`Hola ${i}`)
@@ -17,7 +19,9 @@ for (let i = 0; i < numbers.length; i++) {
     console.log(`Elemento: ${numbers[i]}`)
 }
 
-// while
+/************************************************
+ * WHILE
+ */
 
 let i = 0
 while (i < 5) {
@@ -29,7 +33,9 @@ while (i < 5) {
 // while(true) {
 // }
 
-// do while
+/************************************************
+ * DO WHILE
+ */
 
 i = 6
 do {
@@ -37,7 +43,9 @@ do {
     i++
 } while (i < 5)
 
-// for of
+/************************************************
+ * FOR OF
+ */
 
 const myArray = [1, 2, 3, 4]
 
@@ -67,8 +75,9 @@ for (let value of myString) {
     console.log(value)
 }
 
-// break y continue
-
+/************************************************
+ * BREAK y CONTINUE
+ */
 for (let i = 0; i < 10; i++) {
     if (i == 5) {
         continue
